@@ -2,7 +2,7 @@
 
 A modern and responsive **Expense Tracker Web Application** built using **HTML, CSS, and JavaScript**. Bloom helps users manage their personal finances by tracking income and expenses, analyzing spending patterns, and setting budgets with a clean and aesthetic user interface.
 
-link of the website-https://blloom.netlify.app/transaction
+link of the website-https://blloom.netlify.app/
 ---
 
 ## ✨ Features
