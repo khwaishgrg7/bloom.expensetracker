@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale="1">
+
+<title>Bloom Analytics</title>
+
+<link
+rel="stylesheet"
+href="analytics.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+rel="stylesheet">
+
+<script
+src="https://cdn.jsdelivr.net/npm/chart.js">
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">
+Bloom.
+</div>
+
+<div class="links">
+
+<a href="index.html">
+Dashboard
+</a>
+
+<a href="transaction.html">
+Transactions
+</a>
+
+<a href="analytics.html">
+Analytics
+</a>
+
+<a
+class="active"
+href="budget.html">
+
+Budget
+
+</a>
+
+</div>
+
+</nav>
+
+
+
+<section class="hero">
+
+<h1>
+
+Your spending,<br>
+visualised.
+
+</h1>
+
+<p>
+
+Track patterns and understand money better.
+
+</p>
+
+</section>
+
+
+
+<section class="overview">
+
+<div class="card">
+
+<span>
+
+Income
+
+</span>
+
+<h2 id="income">
+
+₹0
+
+</h2>
+
+</div>
+
+
+
+<div class="card">
+
+<span>
+
+Expense
+
+</span>
+
+<h2 id="expense">
+
+₹0
+
+</h2>
+
+</div>
+
+
+
+<div class="card">
+
+<span>
+
+Balance
+
+</span>
+
+<h2 id="balance">
+
+₹0
+
+</h2>
+
+</div>
+
+</section>
+
+
+
+<section class="charts">
+
+<div class="panel">
+
+<h3>
+
+Expenses By Category
+
+</h3>
+
+<canvas id="pieChart">
+
+</canvas>
+
+</div>
+
+
+
+<div class="panel">
+
+<h3>
+
+Income vs Expense
+
+</h3>
+
+<canvas id="barChart">
+
+</canvas>
+
+</div>
+
+</section>
+
+</div>
+
+<script src="analytics.js"></script>
+
+</body>
+
+</html>

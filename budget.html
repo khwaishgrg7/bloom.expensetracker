@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>Bloom Budget</title>
+
+<link
+rel="stylesheet"
+href="budget.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">
+Bloom.
+</div>
+
+<div class="links">
+
+<a href="index.html">
+Dashboard
+</a>
+
+<a href="transaction.html">
+Transactions
+</a>
+
+<a href="analytics.html">
+Analytics
+</a>
+
+<a
+class="active"
+href="budget.html">
+
+Budget
+
+</a>
+
+</div>
+
+</nav>
+
+
+
+<section class="hero">
+
+<h1>
+
+Plan your money,<br>
+before spending.
+
+</h1>
+
+<p>
+
+Create monthly budgets and track progress.
+
+</p>
+
+</section>
+
+
+
+<section class="budget-grid">
+
+<div class="panel">
+
+<h3>
+
+Set Monthly Budget
+
+</h3>
+
+<form id="budgetForm">
+
+<input
+id="budgetInput"
+type="number"
+placeholder="Enter amount"
+required>
+
+<button>
+
+Save Budget
+
+</button>
+
+</form>
+
+</div>
+
+
+
+<div class="panel">
+
+<h3>
+
+Current Status
+
+</h3>
+
+<h2 id="budget">
+₹0
+</h2>
+
+<div class="progress">
+
+<div id="fill">
+
+</div>
+
+</div>
+
+<p id="remaining">
+
+₹0 Remaining
+
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+<script src="budget.js"></script>
+
+</body>
+
+</html>

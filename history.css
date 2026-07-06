@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"DM Sans";
+}
+
+body{
+    background:#f7f2eb;
+    color:#3b322d;
+}
+
+.container{
+    max-width:1300px;
+    margin:auto;
+    padding:50px;
+}
+
+/* =========================
+   HEADER (Same as Dashboard)
+========================= */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:70px;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#3b322d;
+}
+
+.links{
+    display:flex;
+    gap:16px;
+    align-items:center;
+}
+
+.links a{
+    text-decoration:none;
+    color:#655c57;
+    padding:12px 22px;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.links a:hover{
+    background:#f0e6dc;
+}
+
+.links .active{
+    background:#eadfd2;
+    color:#3b322d;
+}
+
+/* ========================= */
+
+h1{
+    margin-bottom:30px;
+    font-size:48px;
+}
+
+.search{
+    display:flex;
+    gap:16px;
+    margin-bottom:30px;
+}
+
+input,
+select{
+    flex:1;
+    padding:18px;
+    border:none;
+    background:white;
+    border-radius:18px;
+    outline:none;
+}
+
+.transactions{
+    display:grid;
+    gap:20px;
+}
+
+.box{
+    background:white;
+    padding:28px;
+    border-radius:24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.box h3{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+    margin-top:12px;
+}
+
+.edit{
+    padding:10px 14px;
+    border:none;
+    background:#cbb39f;
+    color:white;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.edit:hover{
+    background:#b89d88;
+}
+
+.delete{
+    padding:10px 14px;
+    border:none;
+    background:#8d6e63;
+    color:white;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.delete:hover{
+    background:#75594f;
+}
+
+@media(max-width:800px){
+
+    .container{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .search{
+        flex-direction:column;
+    }
+
+    .box{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .actions{
+        justify-content:flex-start;
+    }
+
+}
